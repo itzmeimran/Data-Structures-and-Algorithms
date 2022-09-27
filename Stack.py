@@ -1,0 +1,12 @@
+#DSA STACKS ------> PUSH(APPEND), POP(POP)
+stack = []
+print("Given stack =",stack)
+stack.append(10)
+stack.append(20)
+stack.append(30)
+stack.append(40)
+stack.append(50)
+print("After appending stack = ",stack)
+stack.pop()
+stack.pop()
+print("After pop = ",stack)
